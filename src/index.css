@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+body{
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+    display: grid;
+    background-color: #6983aa;
+    font-family: 'Josefin Sans', sans-serif;
+}
+form{
+    display: flex;
+    gap: 15px;
+}
+button{
+    border-radius: 50% !important;
+    background-color: #8566aa !important;
+    height: 55px !important;
+}
+Button:hover{
+    background-color: #1DB954 !important;
+    color: black !important;
+}
+.card{
+    box-shadow: -5px 5px 5px  rgba(0,0,0,0.3);
+    outline: none;
+    border : none !important;
+}
+li{
+    list-style: none;
+    color: #8566aa !important;
+    /* font-weight: bold; */
+    font-size: larger;
+}
+.list{
+    display: flex;
+    gap:10px;
+    color: #8566aa !important;
+    margin-top: 15px;
+}
+.list:hover{
+    color: crimson !important;
+}
+h1{
+    background-color: #8566aa;
+    color: white ;
+    border-radius: 2px !important;
+}
+
+Button{
+    color: white !important;
+}
+CancelIcon{
+    background-color: #8566aa !important;
+    color: #8566aa !important;
+}
+
